@@ -1,7 +1,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import auth from './routers/auth_router.js'
+import auth from './routers/auth_routes.js'
+import car from './routers/car_routes.js'
 
 
 
@@ -29,8 +30,9 @@ app.get('/',(req,res)=>{
 
 
 app.use('/api/',auth)
+
+app.use('/api/',car)
 /*
-app.use('/api/',)
 app.use('/api/',)
 app.use('/api/',)
 */

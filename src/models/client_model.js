@@ -43,6 +43,8 @@ const ClientSchema = new Schema({
         trim:true,
         required:true
     }
+},{
+    timestamps:true
 })
 
 export default model('Clients',ClientSchema)

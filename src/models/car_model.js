@@ -43,6 +43,8 @@ const CarSchema = new Schema({
         trim:true,
         required:true
     }
+},{
+    timestamps:true
 })
 
 export default model("Cars",CarSchema)

@@ -24,6 +24,8 @@ const BookingSchema = new Schema({
         required:true,
         ref:'Cars'
     }
+},{
+    timestamps:true
 })
 
 export default model('Bookings',BookingSchema)
