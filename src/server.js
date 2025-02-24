@@ -4,6 +4,7 @@ import cors from 'cors';
 import auth from './routers/auth_routes.js'
 import car from './routers/car_routes.js'
 import client from './routers/client_routes.js'
+import booking from './routers/booking_routes.js'
 
 
 
@@ -35,9 +36,8 @@ app.use('/api/',auth)
 app.use('/api/',car)
 
 app.use('/api/',client)
-/*
-app.use('/api/',)
-*/
+
+app.use('/api/',booking)
 
 
 //Rutas no encontradas
