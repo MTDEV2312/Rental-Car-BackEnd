@@ -1,0 +1,35 @@
+{
+  "name": "rental-car-back",
+  "version": "1.0.0",
+  "description": "Rental Backend System",
+  "keywords": [
+    "car",
+    "backend"
+  ],
+  "homepage": "https://github.com/MTDEV2312/Rental-Car-BackEnd#readme",
+  "bugs": {
+    "url": "https://github.com/MTDEV2312/Rental-Car-BackEnd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTDEV2312/Rental-Car-BackEnd.git"
+  },
+  "license": "MIT",
+  "author": "Mathias Teran",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9",
+    "validator-ec": "^1.2.0"
+  }
+}
