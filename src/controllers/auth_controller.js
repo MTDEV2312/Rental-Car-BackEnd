@@ -1,5 +1,5 @@
 import User from '../models/user_model.js'
-//import {generateJWT} from '../middlewares/jwt.js'
+import {generateJWT} from '../middlewares/jwt.js'
 
 
 const Login = async(req,res) => {
