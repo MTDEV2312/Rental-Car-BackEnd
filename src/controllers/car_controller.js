@@ -98,7 +98,8 @@ const UpdateCar = async(req, res) => {
 
         return res.status(200).json({ msg: "Conferencista actualizado exitosamente", response })
     } catch (error) {
-
+        console.log(error)
+        res.status(500).json({msg:"Lo sentimos, algo salio mal"})
     }
 }
 
